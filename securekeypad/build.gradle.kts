@@ -7,10 +7,10 @@ plugins {
 
 android {
     namespace = "dev.loki.securekeypad"
-    compileSdk = 35
+    compileSdk = 36
 
     defaultConfig {
-        minSdk = 24
+        minSdk = 29
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         consumerProguardFiles("consumer-rules.pro")
